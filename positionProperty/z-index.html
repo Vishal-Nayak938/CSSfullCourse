@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+div{
+    height: 70px; width:70px;  text-align: center;
+    position: absolute;
+}
+
+#F{
+    background-color: blueviolet;
+    left:20px; top:60px;
+z-index: 1;
+}
+#S{
+    background-color: red;
+    top:20px; left:60px;
+    z-index:2;
+}
+
+    </style>
+</head>
+<body>
+    <div class="Cont">
+    <div id="F">First</div>
+    <div id="S">Second</div>
+</div>
+
+</body>
+</html>

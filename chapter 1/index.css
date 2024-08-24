@@ -1,0 +1,34 @@
+h1{
+    font-size:50px;
+    color:blue;
+    margin-left:100px;
+    text-transform:uppercase;
+    text-shadow: 1cap;
+}
+
+article{
+
+    color:red;
+    font-size:50px;
+
+}
+
+*{
+    margin:50px;
+}
+
+#span{
+    color:crimson;
+    font-size:50px;
+}
+
+.v{
+    color:red;
+    font-size:50px;
+
+}
+
+
+#span ,.v{
+    text-transform: uppercase;
+}

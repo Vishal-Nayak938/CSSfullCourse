@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PositionProperty</title>
+    <Style>
+        div{
+            height: 70px; width: 70px; background-color: red; color:azure;margin:10px; margin:20px;
+        display: inline-block;
+        }
+        #F{
+            position:static;
+        }
+        #S{
+            position:relative;
+            top:20px;
+            left:40px
+        }
+        #T{
+            position:fixed;
+            top:150px;
+            right:30px;
+        }
+        #FF{
+            position:absolute;
+            left:40px;
+            top:80%
+        }
+    </Style>
+</head>
+<body>
+    <div id="F" class="S">Static</div>
+    <div id="S" class="R">Relative</div>
+    <div id="T" class="F">Fixed</div>
+    <div id="FF" class="A">Absolute</div>
+
+</body>
+</html>

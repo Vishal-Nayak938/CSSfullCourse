@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+ .Grid{
+    
+    /*height: 200px; width: 400px; background-color: cadetblue;border: 2px solid black; display:flex;
+flex-direction: row; */
+
+display:Grid;
+grid-template-columns: 100px 100px;
+grid-template-rows: 150px 150px;
+}
+.b2{ grid-row: 1/2;} 
+
+.box{  background-color:red;border:2px 
+    solid black;    }
+
+    </style>
+</head>
+<body>
+    <div class="Grid">
+<div class="box b1">1</div>
+<div class="box b2">2</div>
+<div class="box b3">3</div>
+<div class="box b4">4</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* this is the descendent selector */
+div p span{
+    font-size: 50px;
+    color: brown;
+}
+/* group selector */
+p, div,span,b{
+    color:rgb(160, 160, 50)
+}
